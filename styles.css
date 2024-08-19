@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo img {
+  width: 100px;
+}
+
+select {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1.5em; /* Aumenta el tamaño de la fuente en el desplegable */
+  width: 150px; /* Asegura que el desplegable ocupe el ancho completo */
+  border-radius: 20px;
+}
+option {
+  font-size: 1em; /* Aumenta el tamaño de la fuente en las opciones */
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #fff;
+  background: #000;
+  padding: 5px;
+  border-radius: 20px;
+}
